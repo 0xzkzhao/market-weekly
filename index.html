@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Market Weekly 宏观与全市场投资周报 (2026.09.13 - 2026.09.20)</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    .markdown-body {
+      box-sizing: border-box;
+      min-width: 200px;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 45px;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+    }
+    .markdown-body a {
+      color: #58a6ff;
+    }
+    .markdown-body img {
+      border-radius: 8px;
+      border: 1px solid #30363d;
+      max-width: 100%;
+      height: auto;
+      margin: 10px 0;
+    }
+    @media (max-width: 767px) {
+      body { padding: 10px; }
+      .markdown-body { padding: 20px; }
+    }
+    .mermaid {
+      background: #161b22;
+      padding: 16px;
+      border-radius: 8px;
+      border: 1px solid #30363d;
+      margin: 16px 0;
+      display: flex;
+      justify-content: center;
+    }
+    .header-tag {
+      display: inline-block;
+      padding: 4px 12px;
+      background: #238636;
+      color: #ffffff;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="markdown-body" id="content">
+    <div style="text-align: center; padding: 40px 0;">
+      <p>正在加载周报内容...</p>
+    </div>
+  </div>
+
+  <script>
+    mermaid.initialize({ startOnLoad: false, theme: 'dark' });
+
+    fetch('./README.md')
+      .then(res => res.text())
+      .then(async md => {
+        // Custom marked renderer for mermaid
+        const renderer = new marked.Renderer();
+        const originalCode = renderer.code.bind(renderer);
+        renderer.code = function(token) {
+          if (token.lang === 'mermaid') {
+            return `<div class="mermaid">${token.text}</div>`;
+          }
+          return originalCode(token);
+        };
+        marked.use({ renderer });
+
+        document.getElementById('content').innerHTML = marked.parse(md);
+        await mermaid.run();
+      })
+      .catch(err => {
+        document.getElementById('content').innerHTML = `<p style="color:red">加载失败: ${err.message}</p>`;
+      });
+  </script>
+</body>
+</html>
