@@ -1,3 +1,5 @@
+> **Language / 语言切换**: [English](./README.md) | **中文版**
+
 # Market Weekly: Macro & Multi-Asset Intelligence Briefing
 > **Language Switch**: **English** | [中文版](./README_zh.md)  
 > **Coverage Period**: September 13, 2026 – September 20, 2026  
