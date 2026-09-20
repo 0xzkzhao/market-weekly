@@ -1,14 +1,14 @@
 # Market Weekly: Macro & Multi-Asset Intelligence Briefing
-> **Language Switch**: **English** | [中文版](./README_zh.md)  
+> **Language Switch**: **English (Original)** | [中文版本 (Chinese Mirror)](./README_zh.md)  
 > **Coverage Period**: September 13, 2026 – September 20, 2026  
-> **Source Universe**: 42 in-depth items across the Market folder (38 global video podcasts + 4 flagship institutional research memos)  
-> **Methodology**: Map-Reduce synthesis | High-resolution timestamped video frame capture & native institutional chart citations
+> **Source Coverage**: 42 curated items across the Market universe (38 in-depth video podcasts + 4 flagship institutional research memos)  
+> **Methodology**: Native primary-source synthesis | High-resolution timestamped video frame capture & native institutional chart citations
 
 ---
 
 ## Executive Summary: Macro Clock & Key Market Fault Lines
 
-The past week marked a defining crossroad where the Federal Reserve's initial rate cut collided with deep institutional skepticism over AI monetization, sovereign debt auction dynamics, and emerging physical bottlenecks:
+The past week marked a critical inflection point across global markets. As the Federal Reserve's long-anticipated rate-cutting cycle officially commenced, broad-based euphoria was conspicuously absent. Instead, markets witnessed severe internal dispersion: a bear-steepening sovereign yield curve, an abrupt institutional chill on Artificial Intelligence monetization, and a violent momentum fracture inside mega-cap technology.
 
 ```mermaid
 flowchart TD
@@ -18,14 +18,14 @@ flowchart TD
     YieldCurve --> Equities["Equities Range-Bound at Highs<br/>(Mid-Cycle Transition underway)"]
     
     subgraph Divergence["The Great AI & Tech Fracture"]
-        Citadel["Citadel Securities Global Roadshow Memo:<br/>Institutional sentiment on AI turns sharply negative;<br/>Intense scrutiny on Hyperscaler Capex ROI"]
-        Altimeter["Altimeter's Brad Gerstner (All-In Summit):<br/>'No AI Bubble' - Semis devour Nasdaq earnings,<br/>Real free-cash-flow underpinning infrastructure"]
+        Citadel["Citadel Securities Global Roadshow Memo:<br/>'Sentiment around AI has turned negative'<br/>Intense scrutiny on Hyperscaler Capex ROI"]
+        Altimeter["Altimeter's Brad Gerstner (All-In Summit):<br/>'No AI Bubble' - Semis devour 70% of Nasdaq returns,<br/>Backed by real GAAP free cash flow, not multiples"]
         Flow["Goldman Sachs Prime Book (via Market Ear):<br/>TMT net long flow spikes to 99th percentile;<br/>Severe CTA downside convexity & buyback blackout window"]
     end
     
     Equities --> Divergence
-    Divergence --> SingleStocks["Rotation into Physical Bottlenecks & Quality Alpha:<br/>• Citrini Robotics Field Trip: Actuators & Harmonic Drives<br/>• Generac (GNRC): +30% on $2.4B Amazon microgrid deal<br/>• Copart (CPRT) & Take-Two (TTWO) catalysts"]
-    Divergence --> Crypto["Digital Asset Liquidity Resilience:<br/>• BTC bears trap: Clean reclaim of key range support<br/>• Commodity & oil settlement via digital rails"]
+    Divergence --> SingleStocks["Rotation into Physical Bottlenecks & Tangible Moats:<br/>• Citrini Robotics Field Trip: Actuators, Harmonic Drives & VLA Models<br/>• Generac (GNRC): +30% on $2.4B Amazon microgrid power deal<br/>• Copart (CPRT) & Take-Two (TTWO) catalysts"]
+    Divergence --> Crypto["Digital Asset Liquidity Resilience:<br/>• BTC bear trap: Clean reclaim of key range support<br/>• Commodity & oil trade settlement on digital rails"]
 ```
 
 ---
@@ -33,18 +33,18 @@ flowchart TD
 ## 1. Global Central Banking & Sovereign Debt Liquidity Disruption
 
 ### 1.1 September FOMC Debrief: Terminal Rate Anchors & Economic Projections
-The Federal Reserve officially commenced its easing cycle this week. Former Federal Reserve senior trader **Joseph Wang** ([September 2026 FOMC Debrief](https://www.youtube.com/watch?v=AeZskmC_MrM)) notes:
-- **Terminal Rate Guidance**: Officials nudged their long-term neutral rate assumptions higher, anchoring terminal rate projections around **3.0% – 3.25%**, signaling a recalibration rather than emergency panic easing.
-- **Morgan Stanley's Perspective**: In [Why the Fed May Have Further to Go](https://www.youtube.com/watch?v=W2U5lAksLfw), Morgan Stanley argues that resilient labor dynamics and persistent services inflation require policy to stay restrictive longer ("Higher-for-Longer") than interest rate futures currently price in.
+The Federal Reserve officially commenced its easing cycle this week. Former Federal Reserve senior trader **Joseph Wang** ([September 2026 FOMC Debrief](https://www.youtube.com/watch?v=AeZskmC_MrM)) analyzed the policy statement, dot plot shifts, and Powell's press conference:
+- **Terminal Rate Floor**: The median dot plot trajectory and long-term neutral rate assumptions ($r^*$) continued to migrate upward. The terminal rate is increasingly anchored around **3.00% – 3.25%**, signaling that the Fed views this as a mid-cycle recalibration rather than emergency stimulus.
+- **Inflation Stickiness vs. Labor Resilience**: In [Why the Fed May Have Further to Go](https://www.youtube.com/watch?v=W2U5lAksLfw), Morgan Stanley's US Economics team stressed that persistent services inflation and resilient corporate balance sheets mean policy rates will remain in restrictive territory ("Higher-for-Longer") far longer than interest rate futures currently price in.
 
 ### 1.2 The 30-Year Treasury Conundrum: Where Have the Long-End Buyers Gone?
-While short-term yields dropped post-FOMC, the long end of the US Treasury curve failed to rally, reflecting acute supply-demand imbalances. **The Monetary Matters Network** featured Trojan Wealth founder **David Busch** ([Why The 30-Year Treasury Lost Its Biggest Buyers](https://www.youtube.com/watch?v=afFbc9ihr3k)):
+While policy rates fell, the long end of the US Treasury curve failed to rally, reflecting an acute supply-demand breakdown. On **The Monetary Matters Network**, Trojan Wealth founder **David Busch** ([Why The 30-Year Treasury Lost Its Biggest Buyers](https://www.youtube.com/watch?v=afFbc9ihr3k)) provided a granular breakdown of auction dynamics:
 
 ![David Busch on 30-Year Treasury Buyer Dynamics](./images/david_busch_treasury30y.jpg)  
 *Figure 1: David Busch dissects foreign reserve managers' retreat from long-duration US Treasuries ([Watch at 02:30](https://www.youtube.com/watch?v=afFbc9ihr3k&t=150s))*
 
-- **Foreign Reserve Managers Retreat**: Foreign central banks and sovereign wealth funds—historically the price-insensitive anchor buyers of 30-year paper—have pulled back due to FX defense and geopolitical diversification.
-- **Structural Surge in Term Premium**: Facing annual US federal budget deficits exceeding \$1.8T, domestic pension and insurance funds require substantially higher term premiums to absorb 30-year issuance, driving curve steepening.
+- **Foreign Reserve Managers Retreat**: Foreign central banks and sovereign wealth funds—historically the price-insensitive anchor buyers of 30-year paper—have pulled back due to FX defense, trade tensions, and geopolitical diversification.
+- **Structural Surge in Term Premium**: Facing annual US federal budget deficits exceeding \$1.8 trillion and an aggregate debt load above \$40 trillion, domestic pension and insurance funds require substantially higher term premiums to absorb 30-year issuance, resulting in bear steepening across the curve.
 
 ### 1.3 Non-US Central Bank Shifts: BOJ Hold & European Sovereign Credit Spreads
 In [Markets Weekly September 19, 2026](https://www.youtube.com/watch?v=WnMDoth8dNs), Joseph Wang mapped key global spillover risks:
@@ -71,7 +71,7 @@ The debate over the sustainability of Big Tech capital expenditure reached fever
 
 ### 2.1 The Bearish Warning: Citadel Securities Global Roadshow Intelligence
 **Citadel Securities** published its global roadshow dispatch [2H September: Getting Closer](https://www.citadelsecurities.com/news-and-insights/global-market-intelligence/2h-september-getting-closer/), delivering a sobering assessment of institutional positioning:
-> *"I am currently on a multi-country global roadshow, and the biggest change I have noticed is how quickly sentiment around AI has turned negative."*
+> *"I am currently on a multi-country global roadshow, and the biggest change I have noticed is how quickly sentiment around AI has turned negative. That does not mean we think the September weakness is finished. The supply/demand setup into month-end remains unfavorable, the technical backdrop is still working against equities, and we continue to think equities can trade lower over the next two weeks..."*
 
 Citadel identified three decisive shifts in client conversations:
 1. **Pivot from Compute Arms Race to ROI Rigor**: Institutional investors are increasingly uncomfortable with hundreds of billions in Hyperscaler depreciation without clear enterprise ARR monetization.
@@ -79,12 +79,15 @@ Citadel identified three decisive shifts in client conversations:
 3. **Extreme Positioning Crowding**: The Magnificent 7 are no longer insulated from macro rotation; the FOMC cut served as a liquidity event for trimming crowded winners.
 
 ### 2.2 The Bullish Counter: Altimeter's Brad Gerstner at All-In Summit
-Speaking at the **All-In Summit 2026**, Altimeter founder **Brad Gerstner** ([Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq](https://www.youtube.com/watch?v=PJrntzMA4iQ)) directly rebutted the bubble narrative:
+Speaking at the **All-In Summit 2026**, Altimeter founder **Brad Gerstner** ([Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq](https://www.youtube.com/watch?v=PJrntzMA4iQ)) directly rebutted the bubble narrative with granular market data:
 
 ![Brad Gerstner at All-In Summit 2026](./images/brad_gerstner_ai.jpg)  
 *Figure 3: Brad Gerstner presents Altimeter's State of the Markets at All-In Summit ([Watch at 02:00](https://www.youtube.com/watch?v=PJrntzMA4iQ&t=120s))*
 
-- **Semis Eat the Nasdaq**: Semiconductor companies now generate an unprecedented share of aggregate Nasdaq earnings. Unlike the 1999 Dot-Com era of unmonetized eye-balls, current infrastructure spend is backed by tens of billions in real free cash flow.
+- **Earnings Expansion, Not Multiple Expansion**:
+  > *"This is not about multiple expansion. This is an earnings-driven market expansion. We've seen multiple contraction this year. Earnings are up 26%, driven heavily by AI infrastructure, but the multiple on the Nasdaq and S&P is actually down. Look at Nvidia trading at 14 times next year's fully taxed GAAP earnings. This is no bubble like it was in 2000."*
+- **Semis Eat the Nasdaq**:
+  > *"Semiconductors are 70% of the Nasdaq's return. 70% of the return... In blue you have hyperscaler capex; in orange you have the free cash flow of the semiconductor companies. Their capex is almost dollar-for-dollar free cash flow to the infrastructure companies."*
 - **The Take-Off Lag**: While physical infrastructure deployers lead by 18-24 months, application-layer software monetization follows an S-curve adoption pattern. Pauses in investor sentiment offer generational entry points for compounders.
 
 ### 2.3 Microstructure Warning: Goldman Sachs Prime Book via Market Ear
@@ -112,7 +115,7 @@ Quantitative flow monitor **market ear** ([Momentum Breaks, CTA Downside Convexi
 With index-level momentum stalling, smart money rotated into tangible physical bottlenecks and resilient secular business models.
 
 ### 3.1 Citrini Research Field Trip: The Humanoid Robotics Tipping Point
-Independent research boutique **Citrini Research** published a landmark 36,000-character ground-level investigation, [Robotics Tipping Point: A Citrini Field Trip](https://citriniresearch.substack.com/p/robotics-tipping-point-a-citrini-field-trip):
+Independent research boutique **Citrini Research** published a landmark investigation, [Robotics Tipping Point: A Citrini Field Trip](https://citriniresearch.substack.com/p/robotics-tipping-point-a-citrini-field-trip):
 
 ![Citrini Research Humanoid Robotics Hardware Teardown](./images/citrini_robotics_1.jpg)  
 *Figure 6: Citrini Research inspects precision dexterous hands and high-torque actuator engineering on site*
